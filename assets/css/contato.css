@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(102, 78, 65);
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+a{ color: antiquewhite;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
+
+.container{
+    background: rgb(109, 56, 32);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    
+}
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+    background: rgb(73, 42, 21);
+}
+/*  aqui */
+.formulario{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.box{
+font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+}
+.gato {
+    background-color: antiquewhite;
+}
+

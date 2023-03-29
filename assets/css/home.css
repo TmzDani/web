@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(102, 78, 65);
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{ color: antiquewhite;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
+
+.container{
+    background: rgb(109, 56, 32);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    
+}
+.menu li{
+    margin-left: 5px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+    background: rgb(73, 42, 21);
+}
+/*CSS CARDS*/
+h1{
+    text-align: center;
+    margin-top: 50px;
+    text-emphasis-color: white;
+}
+img{
+    max-width: 100%;
+    display: block;
+    width: 200px;
+    height: 200px;
+    align-items: left;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+    
+}
+.defi {
+    background-color: rgb(233, 195, 164);
+    align-items: justify;
+        
+}
+.cara {
+    background-color: rgb(194, 162, 121);
+}
+.Indi{
+    background-color: rgb(163, 128, 100);
+}
+p{
+    position: justify;
+    font-family:'Times New Roman', Times, serif
+}
+ol.c {
+    list-style-type: upper-roman;
+  }
+
